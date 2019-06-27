@@ -66,6 +66,7 @@ img {
 .hrNegra {
     height: 100px;
     background-color: black;
+    margin-bottom: 40px;
 }
 
 nav ul {
@@ -112,4 +113,14 @@ a {
     color: white;
     padding-top: 30px;
     font-weight: 100;
+}
+
+.itemExperiencia {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.empresa h2 {
+    width: 30%;
+    display: inline;
 }
