@@ -58,9 +58,7 @@ body {
 }
 
 img {
-    object-fit: cover;
     width: 100%;
-    height: 100%;
     border-radius: 5px;
 }
 
@@ -138,4 +136,8 @@ a {
     display: inline;
     text-align: center;
     font-size: 1.5em;
+}
+
+footer {
+    height: 100px;
 }
