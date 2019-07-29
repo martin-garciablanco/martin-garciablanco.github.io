@@ -185,7 +185,11 @@ footer {
         margin-top: 5px;
         display: block;
     }
-    body {
+    .resumen ul li {
+        margin-left: 19%;
+        text-align: left;
+    }
+    nav ul body {
         font-size: 0.8em;
     }
     #fotoDescripcion {
