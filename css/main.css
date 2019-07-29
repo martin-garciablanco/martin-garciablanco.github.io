@@ -181,7 +181,7 @@ footer {
 }
 
 @media (max-width: 1000px) {
-    nav ul li {
+   nav ul li {
         margin-top: 5px;
         display: block;
     }
@@ -240,10 +240,13 @@ footer {
     }
     footer {
         padding-top: 1%;
-        height: 20px;
+        height: 30px;
         width: 100%;
         background-color: black;
         color: #AF093D;
         text-align: end
+    }
+    #redes ul li img {
+        width: 10px;
     }
 }
