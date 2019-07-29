@@ -63,12 +63,13 @@ img {
 }
 
 #fotoDescripcion {
-    width: 65%;
+    margin-top: 10px;
+    width: 60%;
     float: right;
 }
 
 #textoDescripcion {
-    width: 65%;
+    width: 60%;
     float: left;
     margin-top: -15px;
 }
@@ -123,6 +124,7 @@ a {
     color: white;
     padding-top: 30px;
     font-weight: 100;
+    margin-top: 50px;
 }
 
 .itemExperiencia {
@@ -132,12 +134,112 @@ a {
 }
 
 .empresa h2 {
-    width: 30%;
     display: inline;
     text-align: center;
     font-size: 1.5em;
 }
 
 footer {
-    height: 100px;
+    padding-top: 3%;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: #AF093D;
+    text-align: end
+}
+
+@media (max-width: 1500px) {
+    #fotoDescripcion {
+        width: 65%;
+        float: right;
+    }
+    #textoDescripcion {
+        width: 70%;
+        float: left;
+    }
+}
+
+@media (max-width: 1300px) {
+    #fotoDescripcion {
+        width: 70%;
+        float: right;
+    }
+    #textoDescripcion {
+        width: 80%;
+        float: left;
+    }
+}
+
+@media (max-width: 1200px) {
+    #fotoDescripcion {
+        width: 90%;
+        float: right;
+    }
+    #textoDescripcion {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1000px) {
+    nav ul li {
+        margin-top: 5px;
+        display: block;
+    }
+    body {
+        font-size: 0.8em;
+    }
+    #fotoDescripcion {
+        width: 100%;
+    }
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #aboutMe {
+        margin-bottom: 0%;
+    }
+    .left {
+        grid-area: left;
+        flex-basis: auto;
+        width: 70%;
+    }
+    .right {
+        grid-area: right;
+        text-align: center;
+        width: 80%;
+    }
+    #textoDescripcion {
+        width: 100%;
+    }
+    .tituloSeccion {
+        margin-top: 0px;
+    }
+    .itemExperiencia {
+        text-align: center;
+        width: 90%;
+        margin: 0px 0px 40px 0px;
+    }
+    .total {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hrNegra {
+        width: 100%;
+    }
+    .tituloSeccion {
+        width: 100%;
+    }
+    h2 {
+        width: 90%;
+    }
+    footer {
+        padding-top: 1%;
+        height: 20px;
+        width: 100%;
+        background-color: black;
+        color: #AF093D;
+        text-align: end
+    }
 }
