@@ -148,6 +148,10 @@ footer {
     text-align: end
 }
 
+.resumen {
+    margin-top: 1rem
+}
+
 @media (max-width: 1500px) {
     #fotoDescripcion {
         width: 65%;
